@@ -22,6 +22,7 @@ Set up to keep multiple versions of an object in the same bucket, which allows o
 ### All public access is blocked to the s3 bucket
 
 Only the bucket owner can associate a policy with a bucket. The permissions attached to the bucket apply to all of the objects in the bucket that are owned by the bucket owner.
+
 <code>
     {
         "Version": "2008-10-17",
@@ -39,6 +40,7 @@ Only the bucket owner can associate a policy with a bucket. The permissions atta
         ]
     }
 </code>
+
 # Cloudfront
 Enable accelerated, reliable and secure content delivery for Amazon S3 bucket using all edge locations. (best performance)
 Allows use of Origin Access Identity (OAI) included in S3 bucket policy.
