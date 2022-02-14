@@ -12,14 +12,17 @@ You will speed up content delivery using AWS’s content distribution network se
 ### Task 5: 
 Create a GitHub Repository for assignment 1, submit all the site content to this repository. 
 ### Task 6: 
-Develop effective technical documentation for assignment 1 - Create a REAME.md markdown descripting the details of your AWS EC2 infrastructure deployment for hosting your website. Including the link of your website.  Note: The technical discussion and documentation, rather than just the basic infrastructure buildout or software development, is where the most value occurs whether handing in homework assignments or completing a commercial project.
+Develop effective technical documentation for assignment 1 - Create a REAME.md markdown descripting the details of your AWS S3 infrastructure deployment for hosting your website. Including the link of your website.  Note: The technical discussion and documentation, rather than just the basic infrastructure buildout or software development, is where the most value occurs whether handing in homework assignments or completing a commercial project.
+___
 
 
-
-# Site Info
+# Architecture
 
 Site is developed with html and simple vanilla js
 
-### index.html
-main landing page, has a picture of me and a description of myself with my sociial media linked. 
-also added in some animations 
+# Amazon S3 - object storage service that stores data as objects within buckets
+All assets are stored on an AWS S3 bucket from the html files that let you view the site to the awesome higlights of me slaying noobs in call of duty.
+
+### Buckets are stored in a specific region, in this specific buckets' case it is stored in the **US East (Ohio)** us-east-2 region.
+ Data uploaded to the bucket as objects in Amazon S3. Each object has a key (or key name), which is the unique identifier for the object within the bucket.
+
