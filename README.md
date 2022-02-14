@@ -15,7 +15,10 @@ Create a GitHub Repository for assignment 1, submit all the site content to this
 Develop effective technical documentation for assignment 1 - Create a REAME.md markdown descripting the details of your AWS S3 infrastructure deployment for hosting your website. Including the link of your website.  Note: The technical discussion and documentation, rather than just the basic infrastructure buildout or software development, is where the most value occurs whether handing in homework assignments or completing a commercial project.
 ___
 
+# Site Link
+### https://d3h0nnty80ji1q.cloudfront.net
 
+___
 # Architecture
 
 Site is developed with html and simple vanilla js
@@ -24,6 +27,6 @@ Site is developed with html and simple vanilla js
 All assets are stored on an AWS S3 bucket from the html files that let you view the site to the awesome higlights of me slaying noobs in call of duty.
 
 ### Buckets are stored in a specific region 
-in this specific bucket's case it is stored in the **US East (Ohio)** us-east-2 region.
+in this specific bucket's case it is stored in the **US East (Ohio) us-east-2 region**.
 Data uploaded to the bucket as objects in Amazon S3. Each object has a key (or key name), which is the unique identifier for the object within the bucket.
 
