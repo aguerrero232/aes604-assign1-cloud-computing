@@ -33,7 +33,10 @@ Data uploaded to the bucket as objects in Amazon S3. Each object has a key (or k
 ###  S3 Versioning
 Set up to keep multiple versions of an object in the same bucket, which allows objects that are accidentally deleted or overwritten to be restored.
 
-### Bucket Policy
+## Bucket Policy
+### All public access is blocked to the s3 bucket
+
+Only the bucket owner can associate a policy with a bucket. The permissions attached to the bucket apply to all of the objects in the bucket that are owned by the bucket owner.
 
 {
     "Version": "2008-10-17",
@@ -51,5 +54,11 @@ Set up to keep multiple versions of an object in the same bucket, which allows o
     ]
 }
 
-All public access is blocked to the s3 bucket
+# Cloudfront
+Enable accelerated, reliable and secure content delivery for Amazon S3 bucket using all edge locations. (best performance)
+Allows use of Origin Access Identity (OAI) included in S3 bucket policy.
 
+
+## High level overview
+
+![Alt text](cloudfront_s3_highlevel_architecture.jpg)
