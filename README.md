@@ -1,4 +1,4 @@
-# [Site Link](https://d3h0nnty80ji1q.cloudfront.net)
+# [Click to view the web application.](https://d3h0nnty80ji1q.cloudfront.net)
 ___
 
 # Architecture
