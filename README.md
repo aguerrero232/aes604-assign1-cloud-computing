@@ -1,6 +1,6 @@
 # Site Link
 
-## [Check my assignment out here :)](https://d3h0nnty80ji1q.cloudfront.net)
+## [](https://d3h0nnty80ji1q.cloudfront.net)
 
 ___
 
