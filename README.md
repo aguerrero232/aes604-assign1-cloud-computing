@@ -1,7 +1,4 @@
-# Site Link
-
-## [](https://d3h0nnty80ji1q.cloudfront.net)
-
+# [Site Link](https://d3h0nnty80ji1q.cloudfront.net)
 ___
 
 # Architecture
